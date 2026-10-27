@@ -2,7 +2,7 @@
 
 ![Inventory Plugin](Plugins/Inventory/Resources/Icon128.png)
 
-ProjectXHG 是一个基于 Unreal Engine 5.7 的游戏项目，包含角色、战斗、平台移动和库存系统模块。
+ProjectXHG InventorySystem 是基于 Unreal Engine 5.7 的库存系统项目。
 
 当前 1.0 版本重点完成了以 Session 为 UI 纽带的玩家背包与容器交互，并支持专用服务器下的跨容器事务、装备换装、物品旋转、多物品交换和失败回滚。
 
@@ -95,37 +95,4 @@ ProjectXHG/
 ├─ ProjectXHG.uproject             Unreal 项目文件
 └─ .gitignore                      构建产物和临时目录忽略规则
 ```
-
-## 构建
-
-使用 Unreal Engine 5.7 和 Visual Studio 2022：
-
-```powershell
-& 'D:\UE\UE_5.7\Engine\Build\BatchFiles\Build.bat' `
-  ProjectXHGEditor Win64 Development `
-  -Project='C:\Users\Administrator\Desktop\ProjectXHG\ProjectXHG.uproject' `
-  -NoHotReloadFromIDE
-```
-
-## 自动化测试
-
-运行全部 Inventory 测试：
-
-```powershell
-& 'D:\UE\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Cmd.exe' `
-  'C:\Users\Administrator\Desktop\ProjectXHG\ProjectXHG.uproject' `
-  -unattended -nop4 -NullRHI -nosplash -DDC-ForceMemoryCache `
-  -ExecCmds='Automation RunTests Inventory;Quit'
-```
-
-当前已覆盖：
-
-- 库存权威快照；
-- 容器交互；
-- 旋转和边缘落点；
-- 丢弃生成失败保护；
-- 装备 Actor 与代理状态；
-- 服务端参数校验；
-- 堆叠拆分和旋转；
-- 跨容器原子转移和交换计划。
 
