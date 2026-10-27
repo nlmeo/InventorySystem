@@ -1,0 +1,38 @@
+# Unreal Engine generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.idea/
+.ubt-local/
+
+# Local archive extraction and inspection folders
+_archive_inspect/
+ArchiveExtract-*/
+RestoredArchive/
+
+# IDE and OS files
+*.suo
+*.user
+*.userprefs
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build and temporary outputs
+*.log
+*.tmp
+*.bak
+*.pdb
+*.obj
+*.exp
+*.lib
+*.dll
+*.exe
+
+# Keep source, config, content, plugins, project files and WorkSpace documentation tracked.
