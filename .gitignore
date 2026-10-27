@@ -36,3 +36,4 @@ Thumbs.db
 *.exe
 
 # Keep source, config, content, plugins, project files and WorkSpace documentation tracked.
+ArchiveExtract_*/
