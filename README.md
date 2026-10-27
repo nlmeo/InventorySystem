@@ -129,12 +129,3 @@ ProjectXHG/
 - 堆叠拆分和旋转；
 - 跨容器原子转移和交换计划。
 
-## 版本状态
-
-当前代码已整理为 **Inventory 1.0 Candidate**，主要功能已完成冻结。后续改动应优先处理阻塞性问题、回归缺陷和版本发布整理。
-
-详细记录见：
-
-- [`WorkSpace/Experience/ProjectXHG_Inventory_1.0-Candidate.md`](WorkSpace/Experience/ProjectXHG_Inventory_1.0-Candidate.md)
-- [`WorkSpace/Experience/ProjectXHG_Inventory_1.0收尾清单.md`](WorkSpace/Experience/ProjectXHG_Inventory_1.0收尾清单.md)
-- [`WorkSpace/Experience/跨容器库存迭代归档.md`](WorkSpace/Experience/跨容器库存迭代归档.md)
